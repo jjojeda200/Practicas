@@ -11,10 +11,10 @@ fun main() {
     var nombre: String? = "Matias"
     //4. asigna un valor nulo a nombre
     nombre = null // a diferencia del punto 2, aquí no hay error de compilación
-    //5. que pasa si no indicamos el tipo?
-    var apellidos: String? = "Sanchez"
+    //5. que pasa si no indicamos el tipo?, por defecto no son null
+    var apellidos = "Sanchez"
     //6. intenta asignar null a la variable apellidos
-    apellidos = null //esto provoca un error de compilación
+// apellidos = null //esto provoca un error de compilación
     //7. Intenta declarar otros tipos de datos null safety
     var edad: Int? = null
     edad = 15
