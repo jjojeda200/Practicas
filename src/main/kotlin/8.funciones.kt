@@ -18,7 +18,7 @@ fun imprimirSaludo(mensaje: String = "Hola Algoritmo") {
     println(mensaje)
 }
 fun suma(a: Int, b: Int): Int {
-    val s = a + b
+    val s = a + b + 2
     return s
 }
 fun alCuadrado(x: Int) = x * x
