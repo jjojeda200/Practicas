@@ -59,7 +59,6 @@ fun main() {
         }
     }
 
-
     //9. recorre la lista edades e imprime por pantalla las edades pares usando foreach
     //y renombra la variable "it" a "edad"
     println("\n======== Ejercicio 9 ===========")

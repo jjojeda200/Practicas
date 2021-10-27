@@ -13,7 +13,7 @@ fun main() {
     val y: Any?= 2
     val apellidos: Any? = null
 
-    val numeros = listOf<Any>(15, "20", 30.5, "cien", false)
+    val numeros = listOf<Any?>(15, "20", 30.5, "cien", false, null)
 
     //En definitiva Object es la super clase de todas las clases en Java, mientras que
     //Any es la super clases de todas las clases NO OPCIONALES en kotlin
