@@ -1,7 +1,7 @@
 fun main() {
 
-    val cadena1:String = "Juan"
-    val cadena2:String = "Villalvazo"
+    val cadena1:String = "Jose Juan"
+    val cadena2:String = "Ojeda Granados"
     val dinero:Int = 10
     println("Nombre: $cadena1 $cadena2\ntengo ${'$'}$dinero")
     val cadena3:String=("Nombre: $cadena1 $cadena2\n Y tengo ${'$'}$dinero")
