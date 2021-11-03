@@ -1,5 +1,3 @@
-import java.awt.Color
-
 // El tipo Any es lo que Object a Java
 // Any es el supertipo de todos los tipos en Kotlin
 fun main() {

@@ -1,10 +1,7 @@
 // En kotlin los diccionarios son mapas
 fun main() {
     // 1. crear un mapa(similar a HashMap en Java) con los datos de una persona
-    val mapPersona = mapOf(
-            "nombre" to "Juan",
-            "edad" to 30,
-            "dirección" to "Madrid")
+    val mapPersona = mapOf("nombre" to "Juan", "edad" to 30, "dirección" to "Madrid")
     val dias = mapOf(
             "mes" to "Mayo",
             18 to "Lunes",
@@ -37,5 +34,8 @@ fun main() {
 
     //5. Crear un submapa usando filter
     val mapaEdad = mapaMutable.filter { it.key == "edad" }
-    print(mapaEdad["edad"])
+    println(mapaEdad["edad"])
+    println(mapaMutable)
+    mapaMutable["nombre"] = "José Juan"
+    println(mapaMutable)
 }
