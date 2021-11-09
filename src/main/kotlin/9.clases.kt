@@ -33,9 +33,9 @@ fun main() {
     val colegio = Colegio("Mi colegio", 300)
 }
 
-//Otras constructoras
+//Otras formas de escribir constructores
 class Alumno constructor(val nombre: String, val edad: Int) {
-    //...
+    //... En la definición de las Clases se puede omitir la palabra: constructor
 }
 class Coche {
     val numeroPuertas: Int
@@ -47,10 +47,12 @@ class Coche {
         marca = "BMW"
     }
 }
+
 class Coche2 {
     val numeroPuertas: Int = 4
     val marca: String = "BMW"
 }
+
 class Colegio {
     val nombre: String
     var numAlumnos: Int

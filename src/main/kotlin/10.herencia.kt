@@ -1,7 +1,7 @@
 //Herencia: propiedad por la cual una clase hereda propiedades de la super clase o clase Padre
 
 /*
-                    Figura(Supeclase o clase padre)
+                     Figura  (Supeclase o clase padre)
 
                 /       |       \
                /        |        \

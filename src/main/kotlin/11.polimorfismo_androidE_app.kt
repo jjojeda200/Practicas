@@ -7,6 +7,7 @@ class LoginActividad: Actividad() {
         preferencias.put("usuario", usuario)
         preferencias.put("password", password)
         println("LoginActividad: credenciales guardadas")
+        // println(preferencias)
     }
 }
 class HomeActividad: Actividad() {
@@ -27,5 +28,6 @@ fun main() {
     miAndroideApp.manifiesto.pantallas.add(LoginActividad())
     miAndroideApp.manifiesto.pantallas.add(HomeActividad())
     miAndroideApp.manifiesto.pantallas.add(SuscribeteActividad())
+//  println (miAndroideApp.manifiesto.pantallas)
     miAndroideApp.iniciarApp()
 }

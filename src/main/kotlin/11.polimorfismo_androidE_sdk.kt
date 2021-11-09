@@ -36,7 +36,9 @@ open class Actividad(protected val preferencias: MutableMap<String, Any> = mutab
         println("Destruyendo actividad")
     }
 }
+
 class Manifiesto(val pantallas: MutableList<Actividad> = mutableListOf())
+
 class AndroideApp {
     val manifiesto: Manifiesto = Manifiesto()
     fun iniciarApp() {

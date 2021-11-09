@@ -19,7 +19,7 @@ class Frutas(Color:String,Sabor:String,Precio:Int,Frescura:Int)
     }
     fun pudrirse2(a:Int)
     {
-        print("\nLa fruta es caput, frescura = $a")
+        print("\nla fruta es caput, frescura = $a")
     }
 }
 
