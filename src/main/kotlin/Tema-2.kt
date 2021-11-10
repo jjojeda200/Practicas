@@ -1,3 +1,5 @@
+import kotlin.math.pow
+
 fun main() {
 
     val cadena1:String = "Jose Juan"
@@ -8,7 +10,7 @@ fun main() {
     val cadena4:Int=cadena3.length
     println ("El String anterior tiene $cadena4 caracteres")
 
-    /*Arreglos */
+    /*Arreglos/Cadenas/Arrays/matrices */
     val arreglo = intArrayOf(1,2,3)
     print("\nMuestra primer valor del arreglo (1,2,3):  ")
     println(arreglo[0])
@@ -38,4 +40,22 @@ fun main() {
     Boolean = ((a+b == 8) || (a-b == 6));   println("Ejercicio (a+b == 8) || (a-b == 6) es $Boolean")
     Boolean = (a > 3 && b > 4 && c < 3);    println("Ejercicio a > 3 && b > 4 && c < 3 es $Boolean")
     Boolean = (a > 3 && b >= 3 && c < -3);  println("Ejercicio a > 3 && b >= 3 && c < -3 es $Boolean")
+
+
+    println(doble(2))
+    println(doble2(4))
+    println(doble3(6))
+    println(potencia(4, 6))
+    println(potencia(nBase= 6, nExp= 4))
+    println(potencia(nExp= 6, nBase= 4))
+}
+
+fun doble( x: Int ): Int {
+    return x*2
+}
+fun doble2( x: Int ): Int = x*2
+fun doble3( x: Int ) = x*2
+
+fun potencia( nExp: Int = 1, nBase: Int = 2) : Double {
+    return nBase.toDouble().pow(nExp)
 }
