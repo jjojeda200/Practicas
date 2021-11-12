@@ -1,4 +1,4 @@
-fun main(arg: Array<String>) {
+public fun mainet() {
     val numVal = 18
     var fib = 0
     var aux = 1
