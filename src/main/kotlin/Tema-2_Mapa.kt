@@ -1,3 +1,14 @@
+/* FUNCIONES EN MAPAS (diccionarios)
+
+   size: tamaño de la colección.
+   isEmpty(): indica si el mapa está vacío.
+   containsKey(key: K): indica si el mapa contiene una clave.
+   containsValue(value: V): indica si el mapa contiene un valor.
+   get(key: K): valor asociado a la llave dada o null si no se encuentra.
+   keys: devuelve un Set inmutable con todas las claves en el mapa.
+   values: Collection inmutable de todos los valores en el mapa.
+   */
+
 fun main() {
     val mapa1 = mutableMapOf("Uno" to 1, "Dos" to 2, "Tres" to 3)
     mapa1.put("cuatro",4)

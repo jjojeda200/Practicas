@@ -33,11 +33,13 @@ fun main() {
     contador++
     contador.plus(1) // contador++, pero esta la opcion recomendad por kotlin
 
-//    //7. cuando debemos usar val o var? en realidad podemos usar siempre var y no habría
-//    //problemas en el proyecto, pero la realidad es que la programación es una trabajo que
-//    //se realiza en equipo y val sirve para darle semántica al código que escribimos.
-//    //En la práctica, si tenemos un proyecto de cientos de miles de líneas de código,
-//    //el poder saber de un vistazo si una variable mutará o no a lo largo del código
-//    //es muy útil para el resto del equipo que trabaja en el mismo proyecto.
+//    7. cuando debemos usar val o var? en realidad podemos usar siempre var y no habría
+//    problemas en el proyecto, pero la realidad es que la programación es una trabajo que
+//    se realiza en equipo y val sirve para darle semántica al código que escribimos.
+//    En la práctica, si tenemos un proyecto de cientos de miles de líneas de código,
+//    el poder saber de un vistazo si una variable mutará o no a lo largo del código
+//    es muy útil para el resto del equipo que trabaja en el mismo proyecto.
 
+    var num = 1
+    println(num++ * a)
 }
