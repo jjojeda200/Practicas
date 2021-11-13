@@ -41,7 +41,6 @@ fun main(){
     print("***************************************************************\n")
     var recibos: Array<String> = arrayOf("luz", "agua", "gas")
     recibos.set(2, "internet")
-
     recorrer_array(recibos)
 
     var matriz = arrayOf(
@@ -84,17 +83,18 @@ fun retirar_dinero(saldo: Float, cantidad: Float): Float{
 
 fun recorrer_array(a: Array<String>){
     println()
-    println("recorriendo array con for (i in 0 .. a.size-1)")
+    println("Recorriendo array con for (i in 0 .. a.size-1)")
     for (i in 0 .. a.size-1)
         println("${i+1}: " + a.get(i))
 
     println()
-    println("recorriendo array con for (i in a)")
+    println("Recorriendo array con for (i in a)")
+    var n = 0
     for (i in a)
-        println(i)
+         println("${++n}: " + i)
 
     println()
-    println("recorriendo array con for (i in a.indices)")
+    println("Recorriendo array con for (i in a.indices)")
     for (i in a.indices)
         println(a.get(i))
 }

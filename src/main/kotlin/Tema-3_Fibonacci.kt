@@ -1,4 +1,4 @@
-public fun mainet() {
+fun mainet() {
     val numVal = 18
     var fib = 0
     var aux = 1
