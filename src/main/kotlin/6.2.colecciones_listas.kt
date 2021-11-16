@@ -45,4 +45,5 @@ fun main() {
     val ultimaEdadPar = edades.last { it%2 == 0 }
     println("edades = $edades")
     println("Última edad par: $ultimaEdadPar")
+
 }
