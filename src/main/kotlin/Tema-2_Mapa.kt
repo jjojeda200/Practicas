@@ -1,3 +1,6 @@
+// En kotlin los diccionarios son mapas
+// Los mapas se componen de una pareja: clave/valor
+
 /* FUNCIONES EN MAPAS (diccionarios)
 
    size: tamaño de la colección.
@@ -7,7 +10,7 @@
    get(key: K): valor asociado a la llave dada o null si no se encuentra.
    keys: devuelve un Set inmutable con todas las claves en el mapa.
    values: Collection inmutable de todos los valores en el mapa.
-   */
+*/
 
 fun main() {
     val mapa1 = mutableMapOf("Uno" to 1, "Dos" to 2, "Tres" to 3)

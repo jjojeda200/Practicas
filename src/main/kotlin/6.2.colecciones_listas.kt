@@ -34,6 +34,7 @@ fun main() {
 //        }
 //    }
 //    println("Nueva lista de pares: $nuevaListaPares")
+
 //    Solución kotlin
     val numerosPares: List<Int> = numeros.filter { it % 2 == 0 }
     println("Nueva lista de pares: $numerosPares")
